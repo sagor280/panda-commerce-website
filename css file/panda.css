@@ -1,0 +1,48 @@
+*{
+box-sizing: border-box;
+}
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.search-ber{
+  position: relative;
+}
+.search-ber input{
+background-color: #F1F1F1;
+border-radius: 66px;
+border: none;
+width:500px ;
+padding: 12px 20px;
+margin-top: 5px;
+}
+.search-ber i {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+color: #BABABA;
+font-size: 20px;
+}
+.nav-item{
+  display: flex;
+  gap: 24px;
+}
+.nav-item li{
+  list-style: none;
+ 
+
+ 
+
+}
+.nav-item li a{
+  text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;;
+ font-weight:600px;
+}
