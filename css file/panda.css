@@ -9,6 +9,8 @@ box-sizing: border-box;
 nav{
   display: flex;
   justify-content: space-between;
+ 
+  padding: 10px 0;
 }
 .search-ber{
   position: relative;
@@ -17,7 +19,7 @@ nav{
 background-color: #F1F1F1;
 border-radius: 66px;
 border: none;
-width:500px ;
+width:508px ;
 padding: 12px 20px;
 margin-top: 5px;
 }
@@ -43,6 +45,63 @@ font-size: 20px;
   text-decoration: none;
     color: #707070;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
  font-weight:600px;
+}
+/* nav-ber end */
+
+.banner{
+  background-color: #FEEAE9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 63px;
+
+}
+.banner-section{
+  margin: 64px 46px;
+}
+.banner-title{
+  color: #1F1F1F;
+  font-size: 56px;
+  font-weight: 900px;
+    font-family: "Poppins", sans-serif;
+}
+.banner-description{
+  color:#4E4E4E;
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 26px;
+  width: 456px;
+  font-family: "Inter", sans-serif;
+}
+.banner-price{
+  color: #FF136F;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.btn-primary{
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+   color: #ffffff;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 8px; 
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+
+
+.banner img{
+  width: 402px;
+  height: 378px;
 }
